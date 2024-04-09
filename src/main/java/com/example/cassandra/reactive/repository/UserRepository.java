@@ -1,9 +1,9 @@
-package com.javatechie.spring.cassandra.api.repository;
+package com.example.cassandra.reactive.repository;
 
 import org.springframework.data.cassandra.repository.AllowFiltering;
 import org.springframework.data.cassandra.repository.ReactiveCassandraRepository;
 
-import com.javatechie.spring.cassandra.api.model.User;
+import com.example.cassandra.reactive.model.User;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

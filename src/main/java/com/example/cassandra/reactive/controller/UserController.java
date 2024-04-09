@@ -1,4 +1,4 @@
-package com.javatechie.spring.cassandra.api.controller;
+package com.example.cassandra.reactive.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javatechie.spring.cassandra.api.model.User;
-import com.javatechie.spring.cassandra.api.repository.UserRepository;
+import com.example.cassandra.reactive.model.User;
+import com.example.cassandra.reactive.repository.UserRepository;
 
 import jakarta.annotation.PostConstruct;
 import reactor.core.publisher.Flux;

@@ -1,4 +1,4 @@
-package com.javatechie.spring.cassandra.api.model;
+package com.example.cassandra.reactive.model;
 
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;

@@ -1,4 +1,4 @@
-package com.javatechie.spring.cassandra.api.config;
+package com.example.cassandra.reactive.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.javatechie.spring.cassandra.api;
+package com.example.cassandra.reactive;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
