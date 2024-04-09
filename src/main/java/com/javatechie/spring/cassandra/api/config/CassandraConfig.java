@@ -9,8 +9,12 @@ import org.springframework.data.cassandra.repository.config.EnableReactiveCassan
 @EnableReactiveCassandraRepositories
 public class CassandraConfig extends AbstractCassandraConfiguration
 {
-	@Value("${spring.cassandra.keyspace-name}")
-	private String keySpace;
+	private final String keySpace;
+
+	public CassandraConfig(@Value("${spring.cassandra.keyspace-name}") String keySpace)
+	{
+		this.keySpace = keySpace;
+	}
 
 	@Override
 	protected String getKeyspaceName()
